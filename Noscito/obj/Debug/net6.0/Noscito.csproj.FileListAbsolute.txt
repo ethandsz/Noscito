@@ -1,0 +1,15 @@
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\bin\Debug\net6.0\Noscito.exe
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\bin\Debug\net6.0\Noscito.deps.json
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\bin\Debug\net6.0\Noscito.runtimeconfig.json
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\bin\Debug\net6.0\Noscito.dll
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\bin\Debug\net6.0\Noscito.pdb
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.csproj.AssemblyReference.cache
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.AssemblyInfoInputs.cache
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.AssemblyInfo.cs
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.dll
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\refint\Noscito.dll
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.pdb
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\Noscito.genruntimeconfig.cache
+C:\Users\Ethan\RiderProjects\Noscito\Noscito\obj\Debug\net6.0\ref\Noscito.dll
