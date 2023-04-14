@@ -2,6 +2,8 @@
 using Noscito.ComputationalLayer;
 using NUnit.Framework;
 
+namespace Noscito.ComputationalLayerTests;
+
 [TestFixture]
 public class CandleStickTests
 {
