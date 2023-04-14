@@ -1,11 +1,16 @@
 ﻿using Noscito;
+using Noscito.Api;
+using Noscito.Api.Models;
+using Noscito.ComputationalLayer;
 
 var httpRequester = HttpRequester.Instance();
-var endpoint = new Uri("https://api.bybit.com/spot/v3/public/quote/kline?symbol=BTCUSDT&interval=4h&limit=100");
+var holdLevelFinder = HoldLevelFinder.Instance();
+var endpoint = new Uri("https://api.bybit.com/spot/v3/public/quote/kline?symbol=BTCUSDT&interval=1h&limit=25");
 try 
 {
     var result = await httpRequester.GetFromJsonAsync<ByBitResponse>(endpoint);
-    var wicks = result.Result.Wicks; 
+    var wicks = result.Result.Wicks;
+    holdLevelFinder.IdentifyWickRanges(wicks!);
     Console.WriteLine("Ry");
 } 
 catch (Exception ex)
