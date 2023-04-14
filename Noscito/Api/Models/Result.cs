@@ -1,11 +1,11 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Noscito;
+namespace Noscito.Api.Models;
 
 public class Result
 {
     [JsonPropertyName("list")]
-    public List<Wick>? Wicks { get; set; }
+    public List<CandleStick>? Wicks { get; set; }
     
     [JsonPropertyName("symbol")]
     public string Symbol { get; set; }

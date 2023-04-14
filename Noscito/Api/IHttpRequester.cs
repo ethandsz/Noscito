@@ -1,4 +1,4 @@
-﻿namespace Noscito;
+﻿namespace Noscito.Api;
 
 public interface IHttpRequester
 { 

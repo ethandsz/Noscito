@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Noscito;
+namespace Noscito.Api.Models;
 
 public class ByBitResponse
 {

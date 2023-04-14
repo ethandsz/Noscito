@@ -1,12 +1,12 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Noscito;
+namespace Noscito.Api;
 
 public sealed class HttpRequester : IHttpRequester
 {
 
-    private static HttpRequester _instance;
+    private static HttpRequester? _instance;
     private readonly HttpClient _httpClient;
     
     public HttpRequester(HttpClient httpClient)

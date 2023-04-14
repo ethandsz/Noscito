@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Noscito;
+namespace Noscito.Api.Models;
 
-public class Wick
+public class CandleStick
 {
     [JsonPropertyName("t")]
     public Int64 TimeStamp { get; set; }
