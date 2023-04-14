@@ -1,5 +1,4 @@
-﻿using Noscito;
-using Noscito.Api;
+﻿using Noscito.Api;
 using Noscito.Api.Models;
 using Noscito.ComputationalLayer;
 

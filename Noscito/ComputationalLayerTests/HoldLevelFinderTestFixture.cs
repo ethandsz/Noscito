@@ -32,9 +32,9 @@ public class CandleStickTests
     public void IdentifyWickRanges_ReturnsEmptyList_WhenGivenOneWick()
     {
         // Arrange
-        List<CandleStick> wicks = new List<CandleStick>()
+        List<CandleStick> wicks = new List<CandleStick>
         {
-            new CandleStick{Open = 1, Close = 2}
+            new() {Open = 1, Close = 2}
         };
     
         // Act
@@ -48,14 +48,14 @@ public class CandleStickTests
     public void IdentifyWickRanges_ReturnsCorrectHoldLevels_WhenGivenMultipleWicks()
     {
         // Arrange
-        List<CandleStick> wicks = new List<CandleStick>()
+        List<CandleStick> wicks = new List<CandleStick>
         {
-            new CandleStick{Open = 1, Close = 2},
-            new CandleStick{Open = 1, Close = 2},
-            new CandleStick{Open = 2, Close = 1},
-            new CandleStick{Open = 2, Close = 1},
-            new CandleStick{Open = 1, Close = 2},
-            new CandleStick{Open = 1, Close = 2},
+            new() {Open = 1, Close = 2},
+            new() {Open = 1, Close = 2},
+            new() {Open = 2, Close = 1},
+            new() {Open = 2, Close = 1},
+            new() {Open = 1, Close = 2},
+            new() {Open = 1, Close = 2},
         };
     
         // Act
