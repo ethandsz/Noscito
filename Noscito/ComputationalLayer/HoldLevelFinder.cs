@@ -53,16 +53,4 @@ public class HoldLevelFinder : IHoldLevelFinder
 
         return holdLevels;
     }
-
-    
-    private static List<double> Seq(double start, double stop, double step)
-    {
-        var arr = new List<double>();
-        for (double i = start; i <= stop; i += step)
-        {
-            arr.Add(i);
-        }
-        return arr;
-    }
-
 }
